@@ -25,7 +25,7 @@ namespace Lista4_Questao5
             stermo = int.Parse(Console.ReadLine());
 
             //saida dos dois primeiros termos
-            Console.WriteLine("[ "+ ptermo +" -"+stermo);
+            Console.Write("[ " + ptermo +" "+ stermo);
 
             //saida dos demais
             while (ntermo > 0){
@@ -34,15 +34,11 @@ namespace Lista4_Questao5
                 ptermo = stermo;
                 stermo = termo;
 
-                if (termo > 1){
-                    Console.Write(termo+"-");
-                }
-                else{
-                    Console.Write(termo);
-                }
-                ntermo=ntermo-1;
+                Console.Write(" "+termo);
+                ntermo = ntermo-1;
 
             }//While
+
             Console.Write(" ]");
             Console.ReadKey();
             
