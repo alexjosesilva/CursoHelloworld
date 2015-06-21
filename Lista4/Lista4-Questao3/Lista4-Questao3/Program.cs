@@ -15,12 +15,24 @@ namespace Lista4_Questao3
             int numero, soma=0;
             int length = 5;
 
-            
+            /* ::: For :::
+             * 
             for (int i = 0; i < length; i++)
             {
                 Console.Write("Numero: ");
                 numero = int.Parse(Console.ReadLine());
                 soma = soma + numero;
+            }
+            */
+
+
+            //::: While
+            while (length>0)
+            {
+                Console.Write("Numero: ");
+                numero = int.Parse(Console.ReadLine());
+                soma = soma + numero;
+                length--;
             }
 
             Console.WriteLine("Resultado: "+soma);
