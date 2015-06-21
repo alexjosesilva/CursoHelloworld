@@ -27,6 +27,7 @@ namespace Lista4_Questao3
 
 
             //::: While
+            /*
             while (length>0)
             {
                 Console.Write("Numero: ");
@@ -34,6 +35,17 @@ namespace Lista4_Questao3
                 soma = soma + numero;
                 length--;
             }
+             */
+
+            // :: do{}while ::
+            do{
+                Console.Write("Numero: ");
+                numero = int.Parse(Console.ReadLine());
+                soma = soma + numero;
+                length--;
+            }while(length!=0);
+
+
 
             Console.WriteLine("Resultado: "+soma);
             Console.ReadKey();
