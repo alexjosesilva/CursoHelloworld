@@ -15,13 +15,14 @@ namespace Lista4_Questao7
             //variaveis do sistema
             int length = 1000;
             int divisor=0;
-          
 
+            //::FOR::
             for (int numero = 2; numero <= length; numero++)
             {
                 //inicializar o contador de divisor
                 divisor = 0;
-
+                
+                //::FOR::
                 for (int i = 1; i <= numero; i++)
                 {
                     if (numero % i == 0)
