@@ -29,7 +29,7 @@ namespace Lista4_Questao1
             //:::WHILE:::
             i = 0;
             Console.WriteLine("\n Numeros primos: ");
-            while (i<length)
+            while (i<length) 
             {
                  if (i%2!=0){
                     Console.Write(" "+i);
