@@ -39,6 +39,30 @@ namespace Lista4_Questao5
 
             }//While
 
+            //FOR
+            for (int i = 0; ntermo>0 ; i++)
+            {
+                termo = ptermo + stermo;
+                ptermo = stermo;
+                stermo = termo;
+
+                Console.Write(" " + termo);
+                ntermo = ntermo - 1;
+            }
+
+
+            //DO WHILE
+            do{
+                termo = ptermo + stermo;
+                ptermo = stermo;
+                stermo = termo;
+
+                Console.Write(" " + termo);
+                ntermo = ntermo - 1;
+            }while(ntermo!=0);
+
+
+
             Console.Write(" ]");
             Console.ReadKey();
             
