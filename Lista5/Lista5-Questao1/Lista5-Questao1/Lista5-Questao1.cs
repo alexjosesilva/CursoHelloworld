@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace Lista5_Questao1
 {
     class Program
-    {
+   { 
         static void Main(string[] args)
         {
             //variaveis

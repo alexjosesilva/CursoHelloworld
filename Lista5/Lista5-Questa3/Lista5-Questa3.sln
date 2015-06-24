@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista5-Questa3", "Lista5-Questa3\Lista5-Questa3.csproj", "{2AADE455-6278-429E-A828-85F7F95E8B8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lista5-Questao3", "Lista5-Questa3\Lista5-Questao3.csproj", "{2AADE455-6278-429E-A828-85F7F95E8B8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
