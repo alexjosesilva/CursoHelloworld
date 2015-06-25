@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 //1) Faça um programa que recebe do usuário quatro números e calcula e
 //informa a média desses números. (Tudo deve ser armazenado em array)
 
-namespace Lista5_Questao1
+namespace Lista5_Questao1 
 {
     class Program
    { 
