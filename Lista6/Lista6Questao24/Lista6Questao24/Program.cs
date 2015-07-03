@@ -72,11 +72,11 @@ namespace Lista6Questao24
             }
             else if (preco>50 && preco<=120)
             {
-                Console.WriteLine("Novo Preco {0} - Normal ",preco);
+                Console.WriteLine("Novo Preco: {0} - Normal",preco);
             }
             else if (preco > 120)
             {
-                Console.WriteLine("Novo Preco {0} - Caro ", preco);
+                Console.WriteLine("Novo Preco: {0} - Caro",preco);
             }
 
 
