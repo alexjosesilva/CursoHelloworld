@@ -12,7 +12,7 @@ namespace Lista6Questao18
         {
             int idade;
 
-            Console.WriteLine("Informe a senha: ");
+            Console.WriteLine("Informe a idade: ");
             idade = int.Parse(Console.ReadLine());
 
             if (idade >= 18)
