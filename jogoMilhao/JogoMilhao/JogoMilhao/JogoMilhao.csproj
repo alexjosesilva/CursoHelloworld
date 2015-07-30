@@ -41,9 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Jogador.cs" />
+    <Compile Include="Jogo.cs" />
+    <Compile Include="Palavras.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="show-do-milhao-beta-douglas.cs" />
+    <Compile Include="TelaInicial.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
