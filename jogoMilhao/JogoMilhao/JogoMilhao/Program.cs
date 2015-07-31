@@ -35,6 +35,9 @@ namespace JogoMilhao
                     case '1':
                         Console.Out.Write("\n Inserir nome do Jogador");
                         nome = Console.ReadLine();
+                        jogador.Add(new Jogador(nome,0));
+                        partida.menuJogo();
+
 
                         break;
                     case '2': telas.tela2();
