@@ -10,7 +10,7 @@ namespace JogoMilhao
     {
        //atributos da classe
         private string nome;
-        private Int32 pontos;
+        private double pontos;
 
         public string Nome
         {
@@ -19,7 +19,7 @@ namespace JogoMilhao
         }
         
 
-        public Int32 Pontos
+        public double Pontos
         {
             get { return pontos; }
             set { pontos = value; }
@@ -38,7 +38,7 @@ namespace JogoMilhao
         }
 
         //metodo pontuacao
-        public Int32 pontuar()
+        public double pontuar()
         {
             return pontos++;
         }

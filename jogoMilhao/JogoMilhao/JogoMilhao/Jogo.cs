@@ -20,17 +20,19 @@ namespace JogoMilhao
             string texto = "";
 
             texto += "\n -------Tema das Perguntas -----";
-            texto += "\n 1 - Biologia";
-            texto += "\n 2 - Geografia";
-            texto += "\n 3 - Historia";
-            texto += "\n 4 - Portugues";
-            texto += "\n 5 - Matematica";
+            texto += "\n B - Biologia";
+            texto += "\n G - Geografia";
+            texto += "\n H - Historia";
+            texto += "\n P - Portugues";
+            texto += "\n M - Matematica";
             texto += "\n --------------------------- \n";
             
             Console.Write(texto);
             Console.ReadKey();
 
         }
+
+        
 
     }
 }

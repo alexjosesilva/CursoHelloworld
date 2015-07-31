@@ -41,9 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Perguntas\Atualidades.cs" />
+    <Compile Include="Perguntas\Biologia.cs" />
+    <Compile Include="Perguntas\Geografia.cs" />
+    <Compile Include="Perguntas\Historia.cs" />
     <Compile Include="Jogador.cs" />
     <Compile Include="Jogo.cs" />
-    <Compile Include="Palavras.cs" />
+    <Compile Include="Perguntas\Matematica.cs" />
+    <Compile Include="Perguntas\Perguntas.cs" />
+    <Compile Include="Premio.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TelaInicial.cs" />

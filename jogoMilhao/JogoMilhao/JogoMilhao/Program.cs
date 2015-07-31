@@ -12,7 +12,13 @@ namespace JogoMilhao
         {
             //Tela de abertura do jogo
              TelaInicial telas = new TelaInicial();
-             char opt;    
+             char opt;   
+             //Lista de jogadores
+             List<Jogador> jogador = new List<Jogador>();
+             string nome;
+
+            
+
 
             do
             {
@@ -26,10 +32,17 @@ namespace JogoMilhao
 
                 switch (opt)
                 {
-                    case '1': partida.menuJogo(); break;
-                    case '2': telas.tela2(); break;
-                    case '3': telas.tela3(); break;
-                    case '4': telas.tela4(); break;
+                    case '1':
+                        Console.Out.Write("\n Inserir nome do Jogador");
+                        nome = Console.ReadLine();
+
+                        break;
+                    case '2': telas.tela2();
+                        break;
+                    case '3': telas.tela3();
+                        break;
+                    case '4': telas.tela4();
+                        break;
                     default:
                         break;  
                 }
